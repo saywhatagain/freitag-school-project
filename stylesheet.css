@@ -1,0 +1,982 @@
+@charset "utf-8";
+
+body {
+	margin: 0px;
+}
+#global {
+	width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+	height: auto;
+}
+#menu {
+	background-image: url(images/accueil/logo.gif);
+	background-repeat: no-repeat;
+	background-position: left;
+	height: 61px;
+	width: 790px;
+	position: fixed;
+	padding-top: 0px;
+	z-index: 20;
+	background-color: #FFF;
+	padding-left: 170px;
+	top: 0px;
+}
+
+
+
+
+
+#global #menu ul li {
+	list-style-type: none;
+}
+#global #menu ul li a {
+	display: block;
+	width: auto;
+	float: left;
+	margin-left: 20px;
+	color: #000;
+	padding-left: 0px;
+	padding-top: 5px;
+	text-decoration: none;
+}
+
+
+
+
+#global #menu ul li a:hover {
+	color: #000;
+	text-decoration: underline;
+}
+
+.TexteMenu {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+#content {
+	width: 960px;
+	position: relative;
+	margin-top: 0px;
+	padding-top: 0px;
+	height: auto;
+}
+
+
+
+
+
+
+.GrandTitre {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	font-weight: bold;
+}
+
+
+.TexteContent {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 14px;
+}
+
+.TexteTitre {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	text-decoration: none;
+	font-weight: bold;
+}
+#AnimationContentBox {
+	height: 474px;
+	width: 960px;
+	position: relative;
+	margin-top: 150px;
+	overflow: hidden;
+}
+
+
+/*home page*/
+#HomeBox1 {
+	background-repeat: no-repeat;
+	float: none;
+	height: 474px;
+	width: 316px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	position: absolute;
+	top: -620px;
+	background-color: rgba(0,0,0,1);
+	background-image: url(images/accueil/img1.jpg);
+}
+
+
+
+#HomeBox2 {
+	background-repeat: no-repeat;
+	height: 474px;
+	width: 308px;
+	position: absolute;
+	left: 326px;
+	top: -620px;
+	background-color: rgba(0,204,153,1);
+	background-image: url(images/accueil/img2.jpg);
+}
+
+#HomeBox3 {
+	background-repeat: no-repeat;
+	height: 474px;
+	width: 316px;
+	position: absolute;
+	right: 0px;
+	top: -620px;
+	background-color: rgba(255,102,102,1);
+	background-image: url(images/accueil/img3.jpg);
+}
+
+#HomeBox1Img3 {
+	background-repeat: no-repeat;
+	float: none;
+	height: 474px;
+	width: 316px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	position: absolute;
+	top: -620px;
+	background-color: rgba(204,204,204,1);
+	background-image: url(images/accueil/bike.gif);
+}
+
+
+
+#HomeBox2Img4 {
+	background-repeat: no-repeat;
+	height: 474px;
+	width: 308px;
+	position: absolute;
+	left: 326px;
+	top: -620px;
+	background-color: rgba(102,204,102,1);
+	background-image: url(images/accueil/car.gif);
+}
+
+#HomeBox3Img5 {
+	background-repeat: no-repeat;
+	height: 474px;
+	width: 316px;
+	position: absolute;
+	right: 0px;
+	top: -620px;
+	background-color: rgba(0,255,255,1);
+	background-image: url(images/accueil/truck.gif);
+}
+
+/*CSS ANIMATION*/
+
+.MyMove1{
+	animation-name: MyMove1;
+	-webkit-animation-name: MyMove1;
+	
+	animation-duration: 10s;
+	-webkit-animation-duration: 10s;
+	
+	animation-iteration-count:infinite;
+	-webkit-animation-iteration-count:infinite;
+
+	animation-timing-function: ease-in-out;	
+	-webkit-animation-timing-function: ease-in-out;		
+}
+
+.MyMove2 {
+	animation-delay: 10s;
+	-webkit-animation-delay: 2s;
+}
+
+.MyMove3 {
+	animation-delay: 4s;
+	-webkit-animation-delay: 4s;
+}
+
+.MyMove4 {
+	animation-delay: 6s;
+	-webkit-animation-delay: 6s;
+}
+
+.MyMove5 {
+	animation-delay: 8s;
+	-webkit-animation-delay: 8s;
+}
+
+.MyMove6 {
+	animation-delay: 10s;
+	-webkit-animation-delay: 10s;
+}
+
+
+/* ----- My Move - aniamtion keyframes ---- */
+
+@keyframes MyMove1 {
+
+0% {top:-620px; opacity: 1;}
+
+10% {top:0px; opacity: 1;}
+
+50% {top:0px; opacity: 1;}
+
+60% {top:-620px; opacity: 1;}
+
+100% {top:-620px; opacity: 1;}
+
+}
+
+
+@-webkit-keyframes MyMove1 {
+
+0% {top:-620px; opacity: 1;}
+
+10% {top:0px; opacity: 1;}
+
+50% {top:0px; opacity: 1;}
+
+60% {top:-620px; opacity: 1;}
+
+100% {top:-620px; opacity: 1;}
+
+}
+
+
+
+#HomeBox4 {
+	background-image: url(images/accueil/img4.jpg);
+	height: 232px;
+	width: 500px;
+	float: left;
+	margin-top: 50px;
+	margin-left: 30px;
+	background-repeat: no-repeat;
+}
+#HomeBox5 {
+	float: left;
+	height: auto;
+	width: 350px;
+	margin-top: 40px;
+	margin-left: 20px;
+}
+
+#footer {
+	height: 15px;
+	width: 960px;
+	position: relative;
+	clear: left;
+	margin-left: 0px;
+	padding-top: 70px;
+	font-size: 10px;
+	font-weight: bold;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	text-align: center;
+	background-color: rgba(255,255,255,0.7);
+	
+}
+
+#FromTruckBoxText {
+	float: left;
+	height: 300px;
+	width: 300px;
+	margin-top: 50px;
+	margin-left: 0px;
+	clear: left;
+}
+#FromTruckBoxTextTitre {
+	float: left;
+	height: 50px;
+	width: auto;
+	margin-top: 50px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 36px;
+	margin-left: 290px;
+}
+
+
+/*from truck till bag*/
+
+.banner {
+	margin-top:100px;
+	}
+
+
+
+
+#FromTruckImgBox {
+	float: left;
+	height: 300px;
+	width: 300px;
+	left: 506px;
+	top: 468px;
+	margin-top: 50px;
+	margin-left: 30px;
+}
+#FromTruckTextBox3 {
+	float: left;
+	height: 300px;
+	width: 300px;
+	margin-top: 50px;
+	margin-left: 30px;
+}
+
+#global #content .link1 a {
+	color: rgba(62,18,142,1.00);
+}
+.link1 {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: rgba(102,102,102,1);
+	text-decoration: none;
+}
+
+
+/*How does it happen*/
+
+
+
+#HowImg1 {
+	background-image: url(images/from_truck2/materials.jpg);
+	background-repeat: no-repeat;
+	position: relative;
+	height: 376px;
+	width: 960px;
+	margin-top: 100px;
+	overflow:hidden;
+}
+
+
+
+#HowImg2 {
+	background-image: url(images/from_truck2/cutting.jpg);
+	background-repeat: no-repeat;
+	height: 376px;
+	width: 960px;
+	margin-top: 50px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	position: relative;
+	overflow: hidden;
+}
+
+
+#HowImg3 {
+	background-image: url(images/from_truck2/washing.jpg);
+	height: 376px;
+	width: 960px;
+	background-repeat: no-repeat;
+	margin-top: 50px;
+	overflow: hidden;
+	position: relative;
+}
+#HowImg4 {
+	background-image: url(images/from_truck2/design.jpg);
+	background-repeat: no-repeat;
+	height: 376px;
+	width: 960px;
+	margin-top: 50px;
+	overflow: hidden;
+	position: relative;
+}
+#HowImg5 {
+	background-image: url(images/from_truck2/sewing.jpg);
+	background-repeat: no-repeat;
+	height: 376px;
+	width: 960px;
+	margin-top: 50px;
+	overflow: hidden;
+	position: relative;
+}
+/*css*/
+
+.TexteHover {
+	position: absolute;
+	height: 376px;
+	width: 960px;
+	top: 350px;
+	/*-------- css3 -----------*/
+	
+	-webkit-transition: top 1s ease;
+	-moz-transition: top 1s ease;
+	-o-transition: top 1s ease;
+	transition: top 1s ease;
+	background-color: rgba(204,204,204,0.8);
+	color: rgba(255,255,255,1);
+	font-size: 24px;
+	text-align: center;
+	font-weight: bold;
+}
+#global #content div.TexteHover p {
+	color: rgba(0,0,0,1);
+	font-size: 16px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	padding-top: 60px;
+	text-align: left;
+	padding-right: 60px;
+	padding-left: 60px;
+	line-height: 20px;
+	font-weight: normal;
+}
+
+
+#HowImg1:hover  div.TexteHover {
+	top:0px;
+	
+
+}
+
+#HowImg2:hover  div.TexteHover {
+	top:0px;
+	
+
+}
+
+#HowImg3:hover  div.TexteHover {
+	top:0px;
+	
+
+}
+
+#HowImg4:hover  div.TexteHover {
+	top:0px;
+	
+
+}
+
+#HowImg5:hover  div.TexteHover {
+	top:0px;
+	
+
+}
+
+
+/*css fin*/
+.TopPadTitre {
+	padding-top: 20px;
+	z-index: 10;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	color: rgba(255,255,255,1);
+	font-weight: bold;
+	text-align: center;
+}
+
+
+.materials {
+	background-color: rgba(0,153,153,0.8);
+	height: 45px;
+	width: 280px;
+	position: absolute;
+}
+
+.cutting {
+	background-color: rgba(0,204,51,0.8);
+	height: 45px;
+	width: 280px;
+	position: absolute;
+}
+.washing {
+	background-color: rgba(153,0,204,0.8);
+	height: 45px;
+	width: 280px;
+	position: absolute;
+}
+.design {
+	background-color: rgba(255,0,0,0.8);
+	height: 45px;
+	width: 280px;
+	position: absolute;
+}
+.sewing {
+	background-color: rgba(255,102,0,0.8);
+	height: 45px;
+	width: 280px;
+	position: absolute;
+	
+}
+
+
+/*since*/
+#SinceText {
+	float: left;
+	height: auto;
+	width: 900px;
+	margin-top: 0px;
+	margin-left: 30px;
+	clear: left;
+	text-align: left;
+}
+#global #content #SinceStoryLink .link1:hover {
+}
+
+
+#SinceStoryLink {
+	float: left;
+	height: 25px;
+	width: auto;
+	margin-top: 50px;
+	margin-left: 30px;
+}
+#SinceFreitagBrosLink {
+	float: left;
+	height: 25px;
+	width: 100px;
+	margin-top: 50px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 30px;
+	clear: none;
+}
+
+/*Story*/
+
+#StoryBoxText {
+	float: left;
+	margin-top: 0px;
+	height: auto;
+	width: 900px;
+	margin-left: 30px;
+	clear: left;
+}
+#StoryBoxText2 {
+	height: auto;
+	width: 900px;
+	margin-left: 30px;
+	clear: left;
+	float: left;
+	margin-top: 0px;
+}
+#FreitagBrosBoxText {
+	float: left;
+	height: auto;
+	width: 400px;
+	margin-top: 50px;
+	margin-left: 50px;
+}
+#FreitagBrosBoxImg {
+	background-image: url(images/freitag_bros/bros_3.jpg);
+	float: left;
+	height: 337px;
+	width: 400px;
+	margin-top: 50px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	clear: left;
+	margin-left: 30px;
+}
+#StoreBoxMap1 {
+	background-image: url(images/store_locator/map1.jpg);
+	background-repeat: no-repeat;
+	float: left;
+	height: 194px;
+	width: 300px;
+	margin-top: 50px;
+}
+#StoreBoxMap2 {
+	background-image: url(images/store_locator/map2.jpg);
+	float: left;
+	height: 194px;
+	width: 300px;
+	margin-top: 50px;
+	margin-left: 30px;
+}
+#StoreBoxMap3 {
+	background-image: url(images/store_locator/map3.jpg);
+	float: left;
+	height: 194px;
+	width: 300px;
+	margin-top: 50px;
+	margin-left: 30px;
+}
+#StoreBoxText1 {
+	clear: left;
+	float: left;
+	height: auto;
+	width: 200px;
+	margin-top: 50px;
+	margin-left: 30px;
+}
+#StoreBoxText2 {
+	float: left;
+	height: auto;
+	width: 200px;
+	margin-top: 50px;
+	margin-left: 130px;
+}
+#StoreBoxText3 {
+	float: left;
+	height: auto;
+	width: 200px;
+	margin-top: 50px;
+	margin-left: 130px;
+}
+/*Products*/
+
+#ProductsMessenger {
+	background-image: url(images/products/messenger_bags.jpg);
+	float: left;
+	height: 300px;
+	width: 300px;
+	margin-top: 50px;
+}
+#ProductsHandBag {
+	background-image: url(images/products/hand_bags.jpg);
+	float: left;
+	height: 300px;
+	width: 300px;
+	margin-left: 20px;
+	margin-top: 50px;
+}
+#ProductsBackpacks {
+	float: left;
+	height: 300px;
+	width: 300px;
+	background-image: url(images/products/backpacks.jpg);
+	margin-left: 20px;
+	margin-top: 50px;
+}
+#ProductsBusinessBags {
+	background-image: url(images/products/business_bags.jpg);
+	float: left;
+	height: 300px;
+	width: 300px;
+	clear: left;
+	margin-top: 0px;
+	background-repeat: no-repeat;
+	background-position: center bottom;
+}
+#ProductsWallet {
+	background-image: url(images/products/wallet.jpg);
+	float: left;
+	height: 300px;
+	width: 300px;
+	margin-left: 20px;
+	margin-top: 0px;
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+#ProductsIbags {
+	background-image: url(images/products/ibags.jpg);
+	float: left;
+	height: 300px;
+	width: 300px;
+	margin-left: 20px;
+	margin-top: 0px;
+	background-repeat: no-repeat;
+	background-position: center bottom;
+}
+#ProductsBoxTextMessenger {
+	clear: left;
+	float: left;
+	height: 25px;
+	width: 300px;
+	text-align: center;
+	margin-top: 25px;
+}
+#ProductsBoxTextHandBags {
+	float: left;
+	height: 25px;
+	width: 300px;
+	margin-left: 20px;
+	text-align: center;
+	margin-top: 25px;
+}
+
+
+#ProductsBoxTextBackpacks {
+	float: left;
+	height: 25px;
+	width: 300px;
+	margin-left: 20px;
+	text-align: center;
+	margin-top: 25px;
+}
+
+#ProductsBoxTextBusinessBags {
+	clear: left;
+	float: left;
+	height: 25px;
+	width: 300px;
+	text-align: center;
+	margin-top: 25px;
+}
+#ProductsBoxTextWallet {
+	float: left;
+	height: 25px;
+	width: 300px;
+	margin-left: 20px;
+	text-align: center;
+	margin-top: 25px;
+}
+#ProductsBoxTextIbags {
+	float: left;
+	height: 25px;
+	width: 300px;
+	margin-left: 20px;
+	text-align: center;
+	margin-top: 25px;
+}
+.ProductsBoxVideo {
+	float: left;
+	height: 315px;
+	width: 560px;
+	background-color: #000;
+	margin-top: 150px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 30px;
+}
+#MessengerMaterials {
+	float: left;
+	height: 295px;
+	width: 350px;
+	margin-top: 150px;
+	background-image: url(images/messenger_bags/truck_car_bike.gif);
+	background-repeat: no-repeat;
+	background-position: center center;
+	text-align: center;
+	padding-top: 20px;
+}
+
+.ProduitsSpecs {
+	clear: left;
+	float: left;
+	height: 280px;
+	width: 280px;
+	margin-top: 50px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	padding-right: 10px;
+	padding-left: 10px;
+	margin-left: 30px;
+}
+.ProduitsFeautures {
+	float: left;
+	height: 280px;
+	width: 280px;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-right-width: 1px;
+	border-left-width: 1px;
+	margin-top: 50px;
+	padding-right: 10px;
+	padding-left: 10px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 14px;
+}
+#MessengerBoxImgPerson {
+	background-image: url(images/messenger_bags/messenger_person.gif);
+	background-repeat: no-repeat;
+	background-position: center center;
+	float: left;
+	height: 280px;
+	width: 280px;
+	margin-top: 50px;
+}
+#HandBagsMaterial {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	background-image: url(images/messenger_bags/truck_car.gif);
+	height: 295px;
+	width: 350px;
+	padding-top: 20px;
+	background-repeat: no-repeat;
+	background-position: center center;
+	float: left;
+	margin-top: 150px;
+	text-align: center;
+}
+#HandBagBoxImgPerson {
+	background-image: url(images/hand_bags/person.gif);
+	background-repeat: no-repeat;
+	background-position: center center;
+	float: left;
+	height: 280px;
+	width: 280px;
+	margin-top: 50px;
+}
+
+#BackpacksMaterials {
+	float: left;
+	height: 295px;
+	width: 350px;
+	margin-top: 150px;
+	background-image: url(images/messenger_bags/truck_car.gif);
+	background-repeat: no-repeat;
+	background-position: center center;
+	text-align: center;
+	padding-top: 20px;
+}
+
+#BackpacksBoxImgPerson {
+	background-image: url(images/backpacks/backpacks_person.gif);
+	background-repeat: no-repeat;
+	background-position: center center;
+	float: left;
+	height: 280px;
+	width: 280px;
+	margin-top: 50px;
+}
+
+#BusinessMaterials {
+	float: left;
+	height: 295px;
+	width: 350px;
+	margin-top: 150px;
+	background-image: url(images/messenger_bags/truck_car.gif);
+	background-repeat: no-repeat;
+	background-position: center center;
+	text-align: center;
+	padding-top: 20px;
+}
+
+#WalletsMaterials {
+	float: left;
+	height: 295px;
+	width: 350px;
+	margin-top: 150px;
+	background-image: url(images/messenger_bags/camion.gif);
+	background-repeat: no-repeat;
+	background-position: center center;
+	text-align: center;
+	padding-top: 20px;
+}
+
+#iBagsMaterials {
+	float: left;
+	height: 295px;
+	width: 350px;
+	margin-top: 150px;
+	background-image: url(images/messenger_bags/camion.gif);
+	background-repeat: no-repeat;
+	background-position: center center;
+	text-align: center;
+	padding-top: 20px;
+}
+
+#ImgCustomerServiceBox {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	float: left;
+	height: 144px;
+	width: 200px;
+	margin-top: 50px;
+	background-image: url(images/contact/customer.jpg);
+	background-repeat: no-repeat;
+	margin-left: 12.5px;
+}
+
+#ImgMarketingBox {
+	float: left;
+	height: 144px;
+	width: 200px;
+	margin-top: 50px;
+	background-image: url(images/contact/marketing.jpg);
+	background-repeat: no-repeat;
+	margin-left: 45px;
+}
+
+#ImgMediaBox {
+	float: left;
+	height: 144px;
+	width: 200px;
+	margin-top: 50px;
+	background-image: url(images/contact/media.jpg);
+	background-repeat: no-repeat;
+	margin-left: 45px;
+}
+
+#ImgJobsBox {
+	float: left;
+	height: 144px;
+	width: 200px;
+	margin-top: 50px;
+	background-image: url(images/contact/jobs.jpg);
+	background-repeat: no-repeat;
+	margin-left: 45px;
+}
+
+#CustomerServiceBox {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	float: left;
+	height: 200px;
+	width: 200px;
+	margin-top: 0px;
+	text-align: left;
+	clear: left;
+	margin-left: 12.5px;
+	
+}
+
+#MarketingBox {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	float: left;
+	height: 200px;
+	width: 200px;
+	margin-left: 45px;
+	text-align: left;
+}
+
+#MediaBox {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	float: left;
+	height: 200px;
+	width: 200px;
+	margin-left: 45px;
+	text-align: left;
+}
+
+#JobsBox {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	float: left;
+	height: 200px;
+	width: 200px;
+	margin-left: 45px;
+	text-align: left;
+}
+#global #menu ul li a.LienVisite {
+	
+	text-decoration: underline;
+}
+#global #content #FromTruckBoxText .link1:hover {
+	color: #000;
+}
+#global #content #SinceStoryLink .link1:hover {
+	color: #000;
+}
+#global #content #SinceFreitagBrosLink .link1:hover {
+	color: #000;
+}
+#global #ProductsBoxTextMessenger .link1:hover {
+	color: #000;
+}
+#global #ProductsBoxTextHandBags .link1:hover {
+	color: #000;
+}
+#global #ProductsBoxTextBackpacks .link1:hover {
+	color: #000;
+}
+#global #ProductsBoxTextBusinessBags .link1:hover {
+	color: #000;
+}
+#global #ProductsBoxTextWallet .link1:hover {
+	color: #000;
+}
+#global #ProductsBoxTextIbags .link1:hover {
+	color: #000;
+}
+#global #content #FromTruckBoxText p a:visited {
+	color: rgba(255,51,102,1);
+}
